@@ -1,0 +1,12 @@
+Pseudocode is a way for programmers to visualize their code in an easy to read format before actually writing any code. An important step when beginning any project as it outlines work/steps that must be taken in the code writing process. Writing pseudocode will help the programmer implement algorithms into their code ensuring a step-by-step process is followed in the workflow.   
+	
+	Request user input email
+		If email is saved, take user to password input
+		If email is not saved request additional input
+		If email is not saved request account creation
+	Request user input Password
+		If password is correct allow access to account
+		If password is incorrect request re-input
+		If password is incorrect display password reset link
+		If password is incorrect (~) times lock account for (~) mins.
+		If password is incorrect (~) times display account recovery options
